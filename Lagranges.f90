@@ -26,5 +26,5 @@ program Program
             end do
             F = F + term
         end do
-        write (*, *) "The value of f(", x, ") is ", F
+        write (*, *) "The value of f(", x, ") is ", F, "this"
 end program Program
